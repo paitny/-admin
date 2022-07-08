@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "multer": "^1.4.2",
+    "random-key": "^0.3.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.0"
+  }
+}
